@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
+
+.contain{
+background-image: url(img/background.jpg);
+width: 100vw;
+height: 100vh;
+background: cover;
+color: red;
+position: relative;
+}
+
+.title{
+position: absolute;
+left: 50%;
+top:30%;
+transform: translate(-50% , -50%);
+font-size: 5em;
+font-weight: 700;
+color: rgba(255, 166, 0, 0.719);
+}
